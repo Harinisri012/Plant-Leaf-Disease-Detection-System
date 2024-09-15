@@ -41,13 +41,6 @@
    - **VGG16 Model**: Achieved an accuracy of 86.0% on the test dataset.
    - The custom CNN performed slightly better due to its simpler architecture, making it more suitable for the small dataset.
 
-### 8. **Deployment Considerations:**
-   - A user-friendly interface could be developed for farmers to upload leaf images and get real-time disease predictions.
-   - The model should be deployed on a lightweight platform due to the absence of GPU support.
-
-### 9. **GitHub Integration:**
-   - The `.gitignore` file includes entries for system files (`.DS_Store`), virtual environment folders (`venv/`), and other temporary files that should not be included in the repository.
-
 ---
 
 By following the above technical specifications, the project is designed to be efficient, easy to train on limited hardware, and highly adaptable for plant disease detection tasks.
